@@ -1,0 +1,109 @@
+<!--AyazSaiyed's - The Background Remover -->
+
+
+{% load static %}
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Sign up</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./static/css/main.css" />
+	</head>
+	<body background="white">
+	
+		<!-- Footer -->
+			<!-- <footer id="footer"> -->
+
+				<div class="inner">
+					<br>
+					<h3 align="left"><a href="index.html" class="logo" >THE BACKGROUND REMOVER<sup> ™️</sup></a></h1>
+<br>
+						<div align="right">
+				<a href="login.html" style="align:right">Already Registered ? Login</a></u>
+					
+					</div>
+
+
+<br>
+					<h3 class=" button alt" style="font-style: unset;">Register to play with AI</h3>
+					<hr>
+					<br>
+					<form action="signupdetails" method="POST" enctype="multipart/form-data">
+						{% csrf_token %}
+					
+
+						<div class="field first">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text" placeholder="Name">
+						</div>
+						<br>
+
+						<div class="field first ">
+							<label for="profile">Upload Profile Picture &nbsp <br><br>
+							<input type="file" name="img" accept="image/jpg, image/jpeg, image/png"></label>
+  						</div>
+						<br>
+						<div class="field first">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email">
+						</div>
+						<div class="field ">
+							<label for="phone">Mobile</label>
+							<input name="phone" id="phone" type="text" placeholder="Contact Number">
+						</div>
+
+
+						<div class="field ">
+							<label for="password">Password</label>
+							<input name="password" id="password" type="password" placeholder="Secret Key">
+						</div>
+
+						<br><br><br>
+						<!-- <div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div> -->
+						<ul class="actions">
+							<li><input value="Hit to Register " class="button " type="submit"></li>
+						</ul>
+					
+<br><br>
+<hr>
+					<div class="12u$ 12u$(small)" align="center">
+	
+										
+											<ul class="icons">
+												<li><a href="https://twitter.com/saiyedayaz9" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+												<li><a href="https://www.instagram.com/ayaz_saiyad_heart_hacker" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="https://github.com/AyazSaiyed" class="icon fa-github"><span class="label">Github</span></a></li>
+												<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+												<li><a href="https://ayazsaiyed.site.live/" class="icon fa-phone"><span class="label">Website</span></a></li>
+												<li><a href="https://linkedin.com/in/ayazsaiyadhearthacker/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+												<!-- <li><a href="mailto:saiyedayaz9@gmail.com">📧</a></li> -->
+											</ul>
+
+
+										</div>
+   <hr>
+					<div class="copyright" align="center">
+						&copy; All Rights Reserved 2019   | &nbsp
+						<!-- || &nbsp  Made with ❤️ at&nbsp <a href="https://yudiz.com">Yudiz Solutions Pvt. ltd.</a> -->
+					
+						Developed By - <a href="https://www.linkedin.co.in/ayazsaiyadhearthacker">Ayaz Saiyad M.</a>
+					</div>
+
+				</div>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="./static/js/jquery.min.js"></script>
+			<script src="./static/js/skel.min.js"></script>
+			<script src="./static/js/util.js"></script>
+			<script src="./static/js/main.js"></script>
+</form>
+	</body>
+</html>

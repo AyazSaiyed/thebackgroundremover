@@ -1,0 +1,306 @@
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 58, in removebg
+    rmbg.remove_background_from_img_file(img)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not InMemoryUploadedFile
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not InMemoryUploadedFile
+WARNING:django.request:Not Found: /assets/js/jquery.min.js
+WARNING:django.request:Not Found: /assets/js/skel.min.js
+WARNING:django.request:Not Found: /assets/js/util.js
+WARNING:django.request:Not Found: /assets/js/main.js
+WARNING:django.request:Not Found: /assets/js/skel.min.js
+WARNING:django.request:Not Found: /assets/js/util.js
+WARNING:django.request:Not Found: /assets/js/main.js
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not InMemoryUploadedFile
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'a.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'a.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'a.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(img)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+TypeError: expected str, bytes or os.PathLike object, not InMemoryUploadedFile
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'a.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'pratik-patel.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'pratik-patel.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'pratik-patel.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'pratik-patel.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'pratik-patel.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file('pratik-patel.jpg')
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'pratik-patel.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file('./pratik-patel.jpg')
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './pratik-patel.jpg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file('./media/images/')
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+IsADirectoryError: [Errno 21] Is a directory: './media/images/'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 59, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+IsADirectoryError: [Errno 21] Is a directory: './media/images/'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 63, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './media/images.jpeg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 63, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './media/images.jpeg'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 63, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './media/AyazSaiyed'
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 63, in removebg
+    rmbg.remove_background_from_img_file(a)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/removebg/removebg.py", line 21, in remove_background_from_img_file
+    img_file = open(img_file_path, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './media/uploadedimagesAyazSaiyed'
+ERROR:root:Unable to save ./media/uploadedimages/AyazSaiyed_no_bg.png due to could not identify foreground in image. for details and recommendations see https://www.remove.bg/supported-images.
+ERROR:django.request:Internal Server Error: /removebg
+Traceback (most recent call last):
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yudiz/Downloads/thebackgroundremover/thebackgroundremoverapp/views.py", line 66, in removebg
+    return HttpResponse(image_data, mimetype="image/png")
+  File "/anaconda2/envs/DjangoTensorflow/lib/python3.6/site-packages/django/http/response.py", line 289, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'mimetype'
+WARNING:django.request:Not Found: /images/banner.jpg
+WARNING:django.request:Not Found: /assets/js/jquery.min.js
+WARNING:django.request:Not Found: /assets/js/skel.min.js
+WARNING:django.request:Not Found: /assets/js/util.js
+WARNING:django.request:Not Found: /assets/js/main.js
+WARNING:django.request:Not Found: /assets/js/main.js
+WARNING:django.request:Not Found: /assets/js/main.js
+WARNING:django.request:Not Found: /assets/js/util.js
+WARNING:django.request:Not Found: /assets/js/jquery.min.js
+WARNING:django.request:Not Found: /assets/js/skel.min.js
+WARNING:django.request:Not Found: /assets/js/util.js
+WARNING:django.request:Not Found: /assets/js/main.js

@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>The Background Remover</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./static/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="">
+				<div class="inner">
+					<h3 align="left"><a href="index.html" class="logo" >THE BACKGROUND REMOVER<sup> ™️</sup></a></h1>
+					
+					<!-- <nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="generic.html">Generic</a>
+						<a href="elements.html">Elements</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a> -->
+				</div>
+			</header>
+  
+  {% for i in userdetails %}
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+							<h5>Welcome  <strong>{{i.username}}</strong></h5>
+
+						<!-- <img src={{i.image}} height="200" width="200"> -->
+						<!-- <p> </p> -->
+				
+
+					<!-- <br>
+					<div class="" data-validate = "Username is reauired">
+						<br>
+						<b>Username</b>
+						<input class="input100" type="text" readonly value={{i.username}}>
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div> -->
+
+		
+				{% endfor %}
+				<br>
+				<br>
+
+				<form action="removebg" method="POST" enctype="multipart/form-data">
+						{% csrf_token %}
+					
+					<br>
+								<div class="field first " align="center">
+							<label><input type="text" readonly value="Select Image to Remove Background">
+								<br><br>
+							<input type="file" name="nimg" accept="image/jpg, image/jpeg, image/png"></label>
+  					<br>
+  					<br>
+  						<ul class="actions">
+							<li><input value="Remove Background " class="button" type="submit"></li>
+						</ul>
+
+  						</div>
+				
+					
+  					</form>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
